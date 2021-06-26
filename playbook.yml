@@ -1,0 +1,5 @@
+- hosts: remoto
+  roles:
+    - python3
+    - mongodb
+    - git-checkout
