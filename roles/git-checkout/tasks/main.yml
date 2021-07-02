@@ -9,6 +9,7 @@
       - Copiar o sh init
       - Criar Service
       - Habilitar servico slacko-api
-      - Reiniciar slacko-api      
+      - Reiniciar slacko-api
+      - Verifica URL      
     tags:
       - instala-projeto

@@ -3,7 +3,7 @@ all:
       ansible_user: 'vagrant'
       ansible_become: 'yes'
       ansible_become_method: 'sudo'
-      slacko_path:  '/opt/install4'
+      slacko_path:  '/opt/install'
 
 local:
    hosts:

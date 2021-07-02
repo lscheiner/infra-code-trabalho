@@ -27,3 +27,8 @@
       service:
         name: slacko-api
         state: restarted
+
+    - name: Verifica URL
+      uri:
+        url: http://localhost:8000/docs
+        method: GET
