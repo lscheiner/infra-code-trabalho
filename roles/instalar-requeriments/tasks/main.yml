@@ -1,0 +1,6 @@
+---
+    - name: Rodando requeriments.txt
+      pip:
+        requirements: '{{ slacko_path }}/requeriments.txt'
+      tags:
+        - instala-projeto

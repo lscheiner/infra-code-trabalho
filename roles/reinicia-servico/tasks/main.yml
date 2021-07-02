@@ -1,0 +1,8 @@
+---
+    - name: Reiniciar slacko-api
+      service:
+        name: slacko-api
+        state: restarted
+      when: checkoutprojeto.changed
+      tags:
+        - instala-projeto

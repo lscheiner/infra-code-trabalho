@@ -1,0 +1,6 @@
+---
+    - name: Copiar o sh init
+      template:
+        src: start-api.sh.j2
+        dest: '{{ slacko_path }}/start-api.sh'
+        mode: '0755'        

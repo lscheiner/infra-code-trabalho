@@ -3,3 +3,11 @@
     - python3
     - mongodb
     - git-checkout
+    - instalar-requeriments
+    - copiar-sh-init
+    - criar-service
+    - habilitar-servico
+    - reinicia-servico
+    - verificar-porta
+    - verificar-url
+    

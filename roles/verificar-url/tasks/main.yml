@@ -1,0 +1,6 @@
+---
+    - name: Verifica URL
+      uri:
+        url: http://localhost:8000/docs
+        method: GET
+        timeout: 30
