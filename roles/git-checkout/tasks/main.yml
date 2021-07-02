@@ -10,6 +10,7 @@
       - Criar Service
       - Habilitar servico slacko-api
       - Reiniciar slacko-api
+      - Aguardando porta 8000
       - Verifica URL      
     tags:
       - instala-projeto

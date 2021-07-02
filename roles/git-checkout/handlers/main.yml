@@ -28,9 +28,13 @@
         name: slacko-api
         state: restarted
 
+    - name: Aguardando porta 8000
+      wait_for:
+        port: 8000
+        delay: 10
+
     - name: Verifica URL
       uri:
         url: http://localhost:8000/docs
         method: GET
-        timeout: 60
-      delay: 60
+        timeout: 30
